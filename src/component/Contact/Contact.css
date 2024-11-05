@@ -1,0 +1,50 @@
+.contact-tag-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 200px;
+    background: #f6f6f6;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+   
+ }
+ 
+ .contact-tag2 a{
+     text-decoration: none;
+     color: #797979;
+     font-size: 18px;
+ 
+ }
+ 
+ .form textarea{
+         height: 200px;
+         width: 700px;
+ }
+ .form input{
+     padding: 18px;
+     width: 312px;
+ }
+ .form .subject{
+     width: 667px;
+ }
+ .form button{
+     display: inline-block;
+     padding: 0px 32px;
+     letter-spacing: 0.25px;
+     font-family: "Roboto", sans-serif;
+     text-align: center;
+     font-size: 12px;
+     font-weight:500 ;
+     line-height: 44px;
+     background-color: #71cd14;
+     color: #ffffff;
+     border: 1px solid #71cd14;
+     border-radius: 5px;
+     text-transform: uppercase;
+     transition: all 300ms linear 0s;
+     margin-top: 20px;
+     margin-bottom: 15px;
+ }

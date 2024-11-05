@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.shop-category-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 200px;
+    background: #f6f6f6;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    /* margin-bottom: 10%; */
+   
+ }
+ 
+.shop-category-tag2 a{
+     text-decoration: none;
+     color: #797979;
+     font-size: 18px; 
+}
+/* ------- */
+.browse-category{
+    /* height: 380px; */
+    width: 210px;
+    border: 1px solid gray;
+    color: rgb(16, 5, 5);
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.product-brand{
+    /* height: 380px; */
+    width: 210px;
+    border: 1px solid gray;
+    color: rgb(16, 5, 5);
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin: 20px;
+    
+}
+.color-filter{
+    width: 210px;
+    border: 1px solid gray;
+    color: rgb(16, 5, 5);
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin: 20px;
+
+}
+.price-filter{
+    width: 210px;
+    border: 1px solid gray;
+    color: rgb(16, 5, 5);
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin: 20px;
+
+}
+
+.head-box{
+    background-color: #f6f6f6;
+    width: 850px;
+    color: rgb(16, 5, 5);
+
+    padding: 10px 20px;
+}
+.head-box select{
+    padding: 15px 40px;
+
+}
+.col{
+    display: flex;
+    justify-content: center;
+    margin: 100px ;
+    margin-left: 200px;
+
+}
+
+.product-img2{
+    height: 330px;
+    width: 265px;
+    margin: 10px;
+    border: 1px solid #f6f6f6;
+}
+.product-img2-text{
+    font-size: 15px;
+    color: rgb(16, 5, 5);
+
+    font-family: sans-serif;
+    padding: 10px;
+}
+.category-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.browse-category{
+    padding: 0px 15px;
+}
+.product-brand{
+    padding: 0px 15px;
+}
+.color-filter{
+    padding: 0px 15px;
+}
+.price-filter{
+    padding: 0px 15px;
+}
