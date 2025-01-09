@@ -15,7 +15,7 @@ function Contact() {
                         </p>
                     </div>
                     <div className="contact-tag2">
-                        <a href="index.html">
+                        <a href="/">
                             Home /
                         </a>
                         <a href> Contact Us</a>
@@ -28,10 +28,12 @@ function Contact() {
                     <div className="form">
                         <textarea defaultValue={""} />
                         <br />
+                        <br />
                         <input
                             type="text"
                             placeholder="Enter your Name" />
                         <input
+                            className='emailId'
                             type="text"
                             placeholder="Enter Email Address" />
                         <br />

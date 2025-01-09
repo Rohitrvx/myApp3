@@ -390,9 +390,10 @@ left: 12%;
   text-align: center;
 }
 /* -------------------- */
+/* Footer Css */
 .footer{
   background-color: #0d0d1f;
-  height: 650px;
+  height: 550px;
   margin-top: 8%;
 }
 .col{
@@ -404,7 +405,7 @@ left: 12%;
 }
 .footer ul{
   list-style: none;
-  margin: 50px;
+  margin: 41.7px;
 }
 .footer p{
   display:flex;

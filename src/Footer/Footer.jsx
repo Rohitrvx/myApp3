@@ -45,7 +45,7 @@ function Footer() {
             <ul>
               <li><h3>Newsletter</h3></li>
               <li>You can trust us. we only send promo offers,</li>
-              <li><input type="text" placeholder="Your Email Address" /> <button>Subscribe</button></li>
+              <li><input type="text" placeholder="Your Email Address"/ > <button>Subscribe</button></li>
             </ul>
           </div>
         </div>

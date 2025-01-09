@@ -1,0 +1,30 @@
+.container {
+    padding: 20px;
+    /* height: 300px;
+    width: 500px; */
+    background-color: #f9f9f9;
+  }
+  
+  .button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: #333;
+  }
+  .image{
+    height: 10px;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

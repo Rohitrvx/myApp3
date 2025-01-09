@@ -11,6 +11,12 @@
     font-family: "Roboto", sans-serif;
    
  }
+ .contact-form{
+    margin: 2%;
+ }
+ .emailId{
+    margin-left: 2%;
+ }
  
  .contact-tag2 a{
      text-decoration: none;

@@ -9,6 +9,8 @@ import ShopCategory from './component/ShopCategory/ShopCategory.jsx'
 import Checkout  from './component/Checkout/Checkout.jsx';
 import Description from './component/Description/Description.jsx'
 import { Routes, Route } from 'react-router-dom'
+import Signup from './component/SignIn/Signup.jsx'
+import Apifetch from './component/Api/Apifetch.jsx'
 
 
 import './App.css'
@@ -26,6 +28,9 @@ function App() {
         <Route path="/contact" element= {  <Contact/>}></Route>
         <Route path="/ShopCategory" element = {<ShopCategory/>}></Route>
         <Route path="/ProductDetails" element= { <ProductDetails/>}></Route>
+        <Route path="Signup" element = {<Signup/>}></Route>
+        <Route path="Apifetch" element = {<Apifetch/>}></Route>
+
       </Routes>
       <Footer/>
      

@@ -65,9 +65,9 @@ function Header() {
         </div>
         <div className="nav2">
             <ul>
-                <li><i className="fa-solid fa-magnifying-glass"></i></li>
+                <li><Link to={"/Apifetch"}><i className="fa-solid fa-magnifying-glass"></i></Link></li>
                 <li><i className="fa-solid fa-cart-shopping"></i></li>
-                <li><i className="fa-solid fa-user"></i></li>
+                <li><Link to={"/Signup"}><i className="fa-solid fa-user"></i></Link></li>
                 <li><i className="fa-sharp-duotone fa-solid fa-heart"></i></li>
             </ul>
         </div>
