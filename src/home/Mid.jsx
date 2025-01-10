@@ -2,6 +2,7 @@ import React from 'react'
 import InspiredProduct from './InspiredProduct';
 import featured_data from './Featured_product';
 import { Link } from 'react-router-dom'
+import Apifetch from '../component/Api/Apifetch';
 
 
 function Mid() {
@@ -21,7 +22,7 @@ function Mid() {
             <span>Style</span>
           </h1>
           <h4>Fowl saw dry which a above together place.</h4>
-          <button>VIEW COLLECTION</button>
+          <a href="Apifetch"><button>VIEW COLLECTION</button></a>
         </div>
       </div>
 
